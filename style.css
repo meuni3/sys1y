@@ -37,7 +37,7 @@ TRANSFORM:rotate(100deg);}
 
 .B{position:relative;
 bottom:30px;
-right:110px;
+right:100px;
 transition:2s;}
 
 .B:hover{ width:200px;
@@ -46,7 +46,7 @@ TRANSFORM:rotate(100deg);}
 
 .C{position:relative;
 top:10px;
-right:140px;
+right:100px;
 transition:2s;}
 .c:hover{ width:200px;
 height:200px;
@@ -54,7 +54,7 @@ TRANSFORM:rotate(100deg);}
 
 .D{position:relative;
 top:50px;
-right:180px;
+right:110px;
 transition:2S;}
 .D:hover{ width:200px;
 height:200px;
@@ -63,7 +63,7 @@ TRANSFORM:rotate(100deg);}
 
 #Jupiter{position:relative;
 top:50px;
-right:220px;
+right:110px;
 transition:2S;}
 #Jupiter:hover{ width:150px;
 height:150px;
@@ -72,39 +72,47 @@ TRANSFORM:rotate(100deg);}
 
 .F{position:relative;
 top:90px;
-right:250px;
+right:120px;
 transition:2S;}
 .F:hover{ width:200px;
 height:200px;
 TRANSFORM:rotate(190deg);}
 
 
-.G{position:relative;
-bottom:70px;
-left:1160px;
+.G{
+	
+top:50px;
+right:100px;
+	position: relative;
 transition:2S;}
 .G:hover{ width:135px;
 height:135px;
 TRANSFORM:rotate(100deg);}
 
 
-.H{position:relative;
-bottom:70px;
-left:1178px;
+.H{position: relative;
+	
+top:50px;
+right:50px;
 transition:2S;}
 .H:hover{ width:130px;
 height:130px;
 TRANSFORM:rotate(100deg);}
+.O{
+  position: fixed;
+  bottom: 40px; 
+  left: 10px;
+}
 
+#us{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  color: silver;
+  font-size: 20px;
+}
 
-.O{position:relative;
-top:30px;
-right:240px;}
-
-#us{position:relative;
-top:20px;
-right:230px;
-color:silver;}
-
-
-
+.all{
+	text-align: center;
+	margin-top: 60px;
+}
